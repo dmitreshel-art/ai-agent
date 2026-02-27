@@ -1,6 +1,3 @@
-# Core
-python>=3.11
-
 # Configuration
 pyyaml>=6.0
 
