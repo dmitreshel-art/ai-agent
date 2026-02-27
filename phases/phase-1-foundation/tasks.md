@@ -2,58 +2,58 @@
 
 ## Чеклист
 
-- [ ] **1.1** Создать структуру директорий
-  - [ ] src/
-  - [ ] src/llm/
-  - [ ] src/planner/
-  - [ ] src/executor/
-  - [ ] src/reflection/
-  - [ ] src/memory/
-  - [ ] src/tools/
-  - [ ] config/
-  - [ ] tests/
-  - [ ] data/
-  - [ ] memory/
-  - [ ] logs/
+- [x] **1.1** Создать структуру директорий
+  - [x] src/
+  - [x] src/llm/
+  - [x] src/planner/
+  - [x] src/executor/
+  - [x] src/reflection/
+  - [x] src/memory/
+  - [x] src/tools/
+  - [x] config/
+  - [x] tests/
+  - [x] data/
+  - [x] memory/
+  - [x] logs/
 
-- [ ] **1.2** Создать __init__.py файлы
-  - [ ] src/__init__.py
-  - [ ] src/llm/__init__.py
-  - [ ] src/planner/__init__.py
-  - [ ] src/executor/__init__.py
-  - [ ] src/reflection/__init__.py
-  - [ ] src/memory/__init__.py
-  - [ ] src/tools/__init__.py
-  - [ ] tests/__init__.py
+- [x] **1.2** Создать __init__.py файлы
+  - [x] src/__init__.py
+  - [x] src/llm/__init__.py
+  - [x] src/planner/__init__.py
+  - [x] src/executor/__init__.py
+  - [x] src/reflection/__init__.py
+  - [x] src/memory/__init__.py
+  - [x] src/tools/__init__.py
+  - [x] tests/__init__.py
 
-- [ ] **1.3** Создать requirements.txt
-  - [ ] python>=3.11
-  - [ ] pyyaml>=6.0
-  - [ ] loguru>=0.7.0
-  - [ ] pydantic>=2.0
+- [x] **1.3** Создать requirements.txt
+  - [x] python>=3.11
+  - [x] pyyaml>=6.0
+  - [x] loguru>=0.7.0
+  - [x] pydantic>=2.0
 
-- [ ] **1.4** Создать pyproject.toml
-  - [ ] Metadata (name, version, description)
-  - [ ] Dependencies
-  - [ ] Python version requirement
+- [x] **1.4** Создать pyproject.toml
+  - [x] Metadata (name, version, description)
+  - [x] Dependencies
+  - [x] Python version requirement
 
-- [ ] **1.5** Создать config/config.yaml
-  - [ ] agent section
-  - [ ] loop settings
-  - [ ] llm settings
-  - [ ] logging settings
+- [x] **1.5** Создать config/config.yaml
+  - [x] agent section
+  - [x] loop settings
+  - [x] llm settings
+  - [x] logging settings
 
-- [ ] **1.6** Создать Dockerfile
-  - [ ] Base image python:3.11-slim
-  - [ ] Working directory /app
-  - [ ] Requirements installation
-  - [ ] Volume mounts
-  - [ ] Expose port 8000
+- [x] **1.6** Создать Dockerfile
+  - [x] Base image python:3.11-slim
+  - [x] Working directory /app
+  - [x] Requirements installation
+  - [x] Volume mounts
+  - [x] Expose port 8000
 
-- [ ] **1.7** Создать docker-compose.yml
-  - [ ] agent service
-  - [ ] Volume mounts
-  - [ ] Environment variables
+- [x] **1.7** Создать docker-compose.yml
+  - [x] agent service
+  - [x] Volume mounts
+  - [x] Environment variables
 
 - [ ] **1.8** Настроить virtual environment
   - [ ] python -m venv venv
@@ -64,22 +64,10 @@
   - [ ] python -c "import src; print(src.__version__)"
   - [ ] docker build . --tag ai-agent:test
 
-## Порядок выполнения
-
-1. Создать все директории
-2. Создать __init__.py файлы
-3. Написать requirements.txt
-4. Написать pyproject.toml
-5. Написать config.yaml
-6. Написать Dockerfile
-7. Написать docker-compose.yml
-8. Настроить venv и установить зависимости
-9. Протестировать (импорт + docker build)
-
 ## Критерии завершения
 
-- Структура директорий соответствует design
-- Все __init__.py файлы созданы
-- requirements.txt содержит базовые зависимости
-- Dockerfile собирается без ошибок
-- Docker Compose запускается без ошибок
+- [x] Структура директорий соответствует design
+- [x] Все __init__.py файлы созданы
+- [x] requirements.txt содержит базовые зависимости
+- [ ] Dockerfile собирается без ошибок
+- [ ] Docker Compose запускается без ошибок

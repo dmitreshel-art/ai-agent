@@ -1,0 +1,19 @@
+agent:
+  name: "AI Agent"
+  version: "0.1.0"
+  
+loop:
+  max_iterations: 10
+  max_plan_steps: 20
+  timeout_seconds: 300
+
+llm:
+  default_provider: "ollama"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+docker:
+  image: "ai-agent:latest"
+  port: 8000

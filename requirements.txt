@@ -1,0 +1,11 @@
+# Core
+python>=3.11
+
+# Configuration
+pyyaml>=6.0
+
+# Logging
+loguru>=0.7.0
+
+# Type validation
+pydantic>=2.0

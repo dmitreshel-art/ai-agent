@@ -1,0 +1,12 @@
+services:
+  agent:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./memory:/app/memory
+      - ./logs:/app/logs
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+    restart: unless-stopped
