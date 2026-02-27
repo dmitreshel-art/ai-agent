@@ -1,0 +1,8 @@
+name: phase-1-foundation
+description: Phase 1 - Foundation (структура проекта)
+status: planning
+priority: high
+created: 2026-02-27T00:00:00Z
+updated: 2026-02-27T00:00:00Z
+tags: [ai-agent, phase-1, foundation]
+depends_on: []
