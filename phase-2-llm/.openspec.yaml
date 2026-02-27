@@ -1,0 +1,8 @@
+name: phase-2-llm
+description: Phase 2 - LLM Provider
+status: planning
+priority: high
+created: 2026-02-27T00:00:00Z
+updated: 2026-02-27T00:00:00Z
+tags: [ai-agent, phase-2, llm]
+depends_on: [phase-1-foundation]
